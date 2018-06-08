@@ -59,7 +59,7 @@ abstract class TrailedShape {
 
         mPaint.setStyle(Paint.Style.FILL);
         mTrailPaint.setStyle(Paint.Style.STROKE);
-        mTrailPaint.setStrokeWidth(5);
+        mTrailPaint.setStrokeWidth(3);
         mTrailPaint.setStrokeJoin(Paint.Join.ROUND);
         mTrailPaint.setStrokeCap(Paint.Cap.ROUND);
     }

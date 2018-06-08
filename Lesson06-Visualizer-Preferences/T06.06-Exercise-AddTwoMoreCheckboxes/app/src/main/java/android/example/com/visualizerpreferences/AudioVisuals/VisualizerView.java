@@ -41,7 +41,7 @@ public class VisualizerView extends View {
     private static final float TREBLE_SEGMENT_SIZE = 60.f / SEGMENT_SIZE;
 
     // The minimum size of the shape, by default, before scaling
-    private static final float MIN_SIZE_DEFAULT = 50;
+    private static final float MIN_SIZE_DEFAULT = 40;
 
     // This multiplier is used to make the frequency jumps a little more visually pronounced
     private static final float BASS_MULTIPLIER = 1.5f;
