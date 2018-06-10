@@ -18,17 +18,16 @@ package com.example.android.todolist.data;
 
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.ContentResolver;
+import android.content.ContentUris;
+import android.content.ContentValues;
+
 import android.content.UriMatcher;
 import android.content.pm.PackageManager;
 import android.content.pm.ProviderInfo;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.AndroidJUnit4;
 
-import com.example.android.todolist.data.TaskContentProvider;
-import com.example.android.todolist.data.TaskContract;
-import com.example.android.todolist.data.TaskDbHelper;
 
 import org.junit.Before;
 import org.junit.Test;
